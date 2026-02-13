@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmo-playground"
+version = "0.3.0"
+description = "Minimal pyccl notebook tutorial"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.6",
+  "scipy>=1.9",
+  "pyccl>=3.1",
+]
