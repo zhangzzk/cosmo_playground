@@ -9,12 +9,6 @@ Minimal notebook-only project for cosmology parameter-response studies.
 - `notebooks/02_gammat_cl_component.ipynb`
 - `notebooks/03_gg_cl_component.ipynb`
 
-## Design
-
-- Inline plotting only (`plt.show()`), no image-file output by default.
-- Multi-panel figures: same quantity shown across multiple parameters in one figure.
-- Shared structure across notebooks for consistency.
-
 ## Scientific Scope
 
 - Basic cosmology notebook shows: comoving distance, growth, transfer-shape proxy from linear power, linear/nonlinear matter power, and HMF (if available in local `pyccl` build).
